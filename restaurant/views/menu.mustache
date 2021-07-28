@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>head}}
+  </head>
+  <body style="background-color:#CBC3E3;">
+    
+	 {{>nav}}
+    
+   <section class="ftco-section">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-2">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Specialties</span>
+            <h2 class="mb-4">Our Menu</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>APPETIZERS</h3>
+        		</div>
+			{{#appetizers}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/appetizers}}
+			
+			</div>
+        	
+    	
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>SANDWICH</h3>
+        		</div>
+			{{#sandwich}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/sandwich}}
+			
+			</div>
+
+			<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>ALL DAY BREAKFAST</h3>
+        		</div>
+			{{#all_day_breakfast}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/all_day_breakfast}}
+			
+			</div>
+        	
+    	</div>
+		<div class="row">
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>SOUPS</h3>
+        		</div>
+			{{#soups}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/soups}}
+			
+			</div>
+        	
+    	
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>SALADS</h3>
+        		</div>
+			{{#salads}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/salads}}
+			
+			</div>
+
+			<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>BURGERS</h3>
+        		</div>
+			{{#burgers}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/burgers}}
+			
+			</div>
+        	
+    	</div>
+		
+		<div class="row">
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>MAIN COURSES</h3>
+        		</div>
+			{{#main_courses}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/main_courses}}
+			
+			</div>
+        	
+    	
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>ITALIAN RANGE</h3>
+        		</div>
+			{{#italian_range}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/italian_range}}
+			
+			</div>
+
+			<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>HOT BEVERAGE</h3>
+        		</div>
+			{{#hot_beverage}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/hot_beverage}}
+			
+			</div>
+        	
+    	</div>
+		
+		<div class="row">
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>COLD BEVERAGE</h3>
+        		</div>
+			{{#cold_beverage}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/cold_beverage}}
+			
+			</div>
+        	
+    	
+        	<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>MILK SHAKES</h3>
+        		</div>
+			{{#milk_shakes}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/milk_shakes}}
+			
+			</div>
+
+			<div class="col-md-6 col-lg-4 menu-wrap">
+        		<div class="heading-menu text-center ftco-animate">
+        			<h3>FRESH JUICE</h3>
+        		</div>
+			{{#fresh_juice}}
+        	<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url({{image}});"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>{{name}}</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">{{price}}</span>
+	                </div>
+	              </div>
+	              <p><span>{{description}}</span></p>
+              </div>
+            </div>
+			{{/fresh_juice}}
+			
+			</div>
+        	
+    	</div>
+
+    </section>
+    {{>footer}}
+  
+
+  {{>scripts}}
+    
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "hero":{
+        
+        "subtext": "A Hashanie's, we serve you the best food by best cheffs around the world! Enjoy your Meal! "
+
+    },
+    "about": {
+        "header":"Welcome to Hashanie's",
+        "subtext":"We’re in Colombo’s business district, connected to the World Trade Centre. Dutch Hospital shopping is less than five minutes away, and we’re under two kilometers from Galle Face Beach. Gangarama Temple is 10 minutes away. Local tuk-tuks are available outside the hotel for exploring the area. Enjoy our outdoor pool, karaoke bar, and on-site restaurants.",
+        "images": [
+            {"image": "/images/lunch-4.jpg", "caption":"Mexican Grilled Chicken"},
+            {"image": "/images/lunch-7.jpg", "caption":"Indonesian Chicken Curry"},
+            {"image": "/images/lunch-6.jpg", "caption":"Thai Fried Chicken Stew"}
+        ]
+        
+    }
+}
